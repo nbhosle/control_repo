@@ -14,5 +14,5 @@ node /^web/ {
 }
 
 node /^db/ {
-  include role:db_server
+  include role::db_server
 }
